@@ -47,5 +47,30 @@ https://www.youtube.com/watch?v=PkZNo7MFNFg
 ## Anatomy 
 ![anatomy](https://user-images.githubusercontent.com/17273449/85921495-669dcc00-b885-11ea-9913-8ebafbfaa70b.JPG)
 
+
+## Phase One Code
+
+### We are going to end up with something like this:
+
+![app](https://user-images.githubusercontent.com/17273449/85921599-f6dc1100-b885-11ea-957f-391113c0fe06.JPG)
+
+Each one is the To Do item, which each (to do item) is coming from from a fake REST API that access a backend server that feeds its data, (for now only we will hard code the To Dos).
+
+Then we have To Dos component that wraps these To Dos items.
+Then the Add To Do ( component ), which is the form 
+And we have the Header (Todo List), the about page which is also a component.
+
+So What you can do with this app is:
+Add a to do, delete it mark them as complete which will add a line through, ( so we will use CSS) 
+
+1- You need to install:
+- Nodejs (as we need node package manager)
+- React Developer Tool on Chrome (as you can see your entire component contractor), as porps and states
+- [Github page for Create React App](https://github.com/facebook/create-react-app), to show how to install it, you can use (npm) to install it globally, but here we will use npx as recommended here.
+Which helps to use create react app to generate an application, but does not actually install it on our system 
+
+2- In terminal type npx create-react-app
+
+
 ## Thanks to: 
 [Traversy Media](https://www.youtube.com/watch?v=sBws8MSXN7A&t=4588s)
