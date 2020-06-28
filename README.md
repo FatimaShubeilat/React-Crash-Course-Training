@@ -1,76 +1,68 @@
-# React-Crash-Course-Training
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![1](https://user-images.githubusercontent.com/17273449/85920893-6c44e300-b880-11ea-819f-720cc08186d4.JPG) 
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Tip
-> A library is just a collection of class definitions. The reason behind is simply code reuse, i.e. get the code that has already been written by other developers. The classes and methods normally define specific operations in a domain specific area. For example, there are some libraries of mathematics which can let developer just call the function without redo the implementation of how an algorithm works.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-![framework-vs-library](https://user-images.githubusercontent.com/17273449/85921090-1d984880-b882-11ea-8007-5937c08ec3e2.png)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-> In framework, all the control flow is already there, and there's a bunch of predefined white spots that you should fill out with your code. A framework is normally more complex. It defines a skeleton where the application defines its own features to fill out the skeleton. In this way, your code will be called by the framework when appropriately. The benefit is that developers do not need to worry about if a design is good or not, but just about implementing domain specific functions.
+## Learn More
 
-[Source](https://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-![why](https://user-images.githubusercontent.com/17273449/85921168-d8284b00-b882-11ea-81ba-d970e2949b99.JPG)
+### Code Splitting
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## What to learn before
+### Analyzing the Bundle Size
 
-https://www.youtube.com/watch?v=PkZNo7MFNFg
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-![what](https://user-images.githubusercontent.com/17273449/85921209-54bb2980-b883-11ea-9146-79d9d3f26077.JPG)
+### Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Thinking in Components 
-![Capture](https://user-images.githubusercontent.com/17273449/85921366-91d3eb80-b884-11ea-9971-629c9fc881ee.JPG)
+### Advanced Configuration
 
-## State
-![state](https://user-images.githubusercontent.com/17273449/85921384-b16b1400-b884-11ea-81af-a52f88005c83.JPG)
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Create React App
-![re](https://user-images.githubusercontent.com/17273449/85921436-060e8f00-b885-11ea-85bb-83d2d1cfa42d.JPG)
+### Deployment
 
-## Anatomy 
-![anatomy](https://user-images.githubusercontent.com/17273449/85921495-669dcc00-b885-11ea-9913-8ebafbfaa70b.JPG)
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### `npm run build` fails to minify
 
-## Phase One Code
-
-### We are going to end up with something like this:
-
-![app](https://user-images.githubusercontent.com/17273449/85921599-f6dc1100-b885-11ea-957f-391113c0fe06.JPG)
-
-Each one is the To Do item, which each (to do item) is coming from from a fake REST API that access a backend server that feeds its data, (for now only we will hard code the To Dos).
-
-Then we have To Dos component that wraps these To Dos items.
-Then the Add To Do ( component ), which is the form 
-And we have the Header (Todo List), the about page which is also a component.
-
-So What you can do with this app is:
-Add a to do, delete it mark them as complete which will add a line through, ( so we will use CSS) 
-
-1- You need to install:
-- Nodejs (as we need node package manager)
-- React Developer Tool on Chrome (as you can see your entire component contractor), as porps and states
-- [Github page for Create React App](https://github.com/facebook/create-react-app), to show how to install it, you can use (npm) to install it globally, but here we will use npx as recommended here.
-Which helps to use create react app to generate an application, but does not actually install it on our system 
-
-2- In terminal type npx create-react-app
-
-
-## Thanks to: 
-[Traversy Media](https://www.youtube.com/watch?v=sBws8MSXN7A&t=4588s)
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
