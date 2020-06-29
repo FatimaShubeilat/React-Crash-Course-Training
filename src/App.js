@@ -28,12 +28,12 @@ class App extends Component {
   ]
   }
   render(){ 
-    console.log(this.state.todos)
+    // console.log(this.state.todos)
   return (
     // eslint-disable-next-line no-unused-expressions
     <div className="App">
       
-       <Todos /> 
+       <Todos todos={this.state.todos} /> 
    
     </div>
   );
