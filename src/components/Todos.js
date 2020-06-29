@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-
+import TodoItem from './TodoItem.js';
 class Todos extends Component {
 
   render() {
 
-    return this.props.todos.map((recentTodo) => (
+    return this.props.todosFirstProp.map((recentTodo) => (
       // we want the title from each one inside the todo that is located in state 
-      <h3>{ recentTodo.title }</h3>
+      <TodoItem todo={recentTodo} />
     ));
   }
 }

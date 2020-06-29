@@ -1,25 +1,30 @@
 # React-Crash-Course-Training
-## Looping using map of the Todos Array
+## Adding Todo items
 
-Map: that return an array from an array, we will use it to loopthrough and out put using JSX
-1-  in Todos.js
+We will add a component for each Todo item instead of showing them in <h3>
 
-```js
+1- create TodosItem.js in component folder 
 
-import React, { Component } from 'react';
+::: Hint ::: download ES7 React/Redux/GraphQL/React-Native snippets
+in vs code to help you create a React component more easily 
 
-class Todos extends Component {
+rce [then click tab]
 
-  render() {
+2- in TodoItem.js just create a component and put <p>Hello</p> in it
 
-    return this.props.todos.map((recentTodo) => 
-      // we want the title from each one inside the todo that is located in state 
-      <h3>{ recentTodo.title }</h3>
-    ));
-  }
-}
+3- go to Todo.js and import TodoItem.js 
+then in map loop 
+<TodoItem />
 
-```
+that will output Hello 3 times as a test
+
+3- to display that current Todo item in Todo.js
+
+<TodoItem todo={recentTodo} />
+
+4- since todo is passed as a porp in TodoItem (prop is like a gate between the components )
+so in TodoItem.js
+<p> {this.prop.todo.title} </p>
 
 ## Thanks to: 
 [Traversy Media](https://www.youtube.com/watch?v=sBws8MSXN7A&t=4588s)

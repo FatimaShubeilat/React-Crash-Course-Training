@@ -33,7 +33,7 @@ class App extends Component {
     // eslint-disable-next-line no-unused-expressions
     <div className="App">
       
-       <Todos todos={this.state.todos} /> 
+       <Todos todosFirstProp={this.state.todos} /> 
    
     </div>
   );
