@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
 
 class Todos extends Component {
+
   render() {
 
-    console.log(this.props.todos)
-    
-
-    return (
-      <div>
-        <h1>Todos</h1>
-      </div>
-    )
+    return this.props.todos.map((recentTodo) => (
+      // we want the title from each one inside the todo that is located in state 
+      <h3>{ recentTodo.title }</h3>
+    ));
   }
 }
 

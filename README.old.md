@@ -1,26 +1,25 @@
 # React-Crash-Course-Training
-## Props
-1- based on phase3
+## Looping using map of the Todos Array
 
-inside the App component we have the Todos component that does not have any state or props!
+Map: that return an array from an array, we will use it to loopthrough and out put using JSX
+1-  in Todos.js
 
-
-So! what we will do is to take the state in the App component and pass it to the Todo component as a prop (just like HTML attributes)
 ```js
-    <div className="App">
-      
-       <Todos todos={this.state.todos} /> 
-   
-    </div>
+
+import React, { Component } from 'react';
+
+class Todos extends Component {
+
+  render() {
+
+    return this.props.todos.map((recentTodo) => 
+      // we want the title from each one inside the todo that is located in state 
+      <h3>{ recentTodo.title }</h3>
+    ));
+  }
+}
+
 ```
-2- save it and run start, go check the Todos it will hsow that it has a prop in REACT tools
-
-3- go to Todos.js and try to console it in the render
-
-REMEMBER it comes from the state comes from App.js 
-and then you access it in Todos.js using props so =>
-this.props.todos
-
 
 ## Thanks to: 
 [Traversy Media](https://www.youtube.com/watch?v=sBws8MSXN7A&t=4588s)
